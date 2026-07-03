@@ -1,0 +1,14 @@
+.DS_Store
+btop/
+configstore/
+containers/
+fish/
+gcloud/
+gh/
+gtk-2.0/
+htop/
+jgit/
+neofetch/
+wireshark/
+zed/
+uv/
