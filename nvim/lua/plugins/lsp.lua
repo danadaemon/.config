@@ -20,10 +20,8 @@ lspconfig.basedpyright.setup({
       analysis = {
         autoSearchPaths = true,
         useLibraryCodeForTypes = true,
-        diagnosticMode = "openFilesOnly", -- "workspace" for bigger projects
-        typeCheckingMode = "standard",    -- options: "off", "basic", "standard", "strict", "all"
-        
-        -- Disable specific diagnostics if you prefer Ruff to handle them
+        diagnosticMode = "openFilesOnly",
+        typeCheckingMode = "standard",
         diagnosticSeverityOverrides = {
           reportUnusedImport = "none",
           reportUnusedVariable = "none",
